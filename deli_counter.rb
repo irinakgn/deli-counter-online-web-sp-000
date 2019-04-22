@@ -15,6 +15,17 @@ def take_a_number(katz_deli, name)
   katz_deli
 end
 
+def take_a_number(katz_deli, name)
+  message = ''
+  if katz_deli.length == 0
+    message = "The line is currently empty."
+  elsif katz_deli.length > 0
+
+  end
+
+  puts message
+end
+
 def now_serving(katz_deli)
   message = ''
   if katz_deli.length == 0
