@@ -18,9 +18,7 @@ end
 def take_a_number(katz_deli, name)
   message = ''
   if katz_deli.length == 0
-    message = "The line is currently empty."
-  elsif katz_deli.length > 0
-
+   message =  "Welcome, #{name}. You are number #{1} in line."
   end
 
   puts message
