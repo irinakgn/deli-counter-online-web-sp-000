@@ -16,4 +16,13 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
+  message = ''
+  if katz_deli.length == 0
+    message = "There is nobody waiting to be served!"
+  elsif katz_deli.length > 0
+    message = "The line is currently:"
+    katz_deli.each_with_index { |item, index| message += " #{index+1}. #{item}" }
+  end
+
+  puts message
 end
