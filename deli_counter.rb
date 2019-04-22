@@ -19,6 +19,8 @@ def take_a_number(katz_deli, name)
   message = ''
   if katz_deli.length == 0
     katz_deli.push(name)
+  elsif katz_deli.length > 0
+    return "Welcome, #{name}. You are number 1 in line."
   end
 
   katz_deli
