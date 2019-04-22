@@ -9,3 +9,6 @@ def line(katz_deli)
 
   puts message
 end
+
+def take_a_number(katz_deli, name)
+end
