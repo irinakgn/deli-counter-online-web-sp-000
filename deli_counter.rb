@@ -19,6 +19,7 @@ def take_a_number(katz_deli, name)
   message = ''
   if katz_deli.length == 0
     katz_deli.push(name)
+      puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   elsif katz_deli.length > 0
     katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
