@@ -5,7 +5,7 @@ def line(katz_deli)
  elsif katz_deli.length > 0
    message = "The line is currently: "
    katz_deli.each_with_index do |i, n|
-      message = message + "#{i} #{n}"
+      message += "#{i} #{n}"
    end
 
    return message
