@@ -10,5 +10,3 @@ def line(katz_deli)
 
    return message
 end
-
-
