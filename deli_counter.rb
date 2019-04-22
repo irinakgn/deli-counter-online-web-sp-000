@@ -6,5 +6,5 @@ def line(katz_deli)
    message = "The line is currently: "
 
   end
-    message
+  message
 end
