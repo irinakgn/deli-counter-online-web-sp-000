@@ -8,5 +8,5 @@ def line(katz_deli)
       message += "#{i} #{n}"
     end
 end
-  #  return message
+   return message
 end
